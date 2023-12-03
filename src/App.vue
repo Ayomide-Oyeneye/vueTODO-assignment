@@ -1,26 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <todo msg='shas' />
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import todo from './components/TodoX.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    todo
+  },
+  
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style scoped></style>
