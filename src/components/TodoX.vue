@@ -105,7 +105,8 @@ ul {
   margin: 200px auto;
   border-radius: 0.5rem;
   background-color: rgb(255, 255, 255);
-  width: 50%;
+  max-width: 50%;
+
   padding-inline: 1rem;
   height: auto;
 }
@@ -172,6 +173,18 @@ ul {
 
 .btn-div .edi {
   background-color: rgb(69, 255, 69);
+}
+@media screen and (max-width: 499px) {
+  .container {
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  max-width: 90%;
+  padding-inline: 1rem;
+  height: auto;
+}
 }
 </style>
 
