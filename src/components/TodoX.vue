@@ -122,8 +122,10 @@ body {
   width: 50%;
   overflow-x: scroll;
 }
+
 .todo-stl::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
+  display: none;
+  /* Safari and Chrome */
 }
 
 ul {
@@ -134,7 +136,7 @@ ul {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 200px auto;
+  margin: 100px auto;
   border-radius: 0.5rem;
   background-color: rgb(255, 255, 255);
   max-width: 50%;
@@ -194,9 +196,10 @@ ul {
   font-weight: 800;
 }
 
-.btn-div{
+.btn-div {
   margin-block: 7px;
 }
+
 .btn-div .btns {
   padding: 1rem;
   border-radius: 0.5rem;
@@ -212,21 +215,19 @@ ul {
   background-color: rgb(69, 255, 69);
   border: none;
 }
+
 @media screen and (max-width: 499px) {
   .container {
-    display: flex;
-    flex-direction: column;
-    margin: 200px auto;
-    border-radius: 0.5rem;
-    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+
     max-width: 90%;
-    padding-inline: 1rem;
-    height: auto;
   }
+
   #todo-input::placeholder {
     font-size: 1.5rem;
     font-weight: 800;
   }
+
   #todo-input {
     height: 3rem;
   }
