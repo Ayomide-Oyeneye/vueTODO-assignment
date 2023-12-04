@@ -109,6 +109,8 @@ body {
 
 .todo-stl {
   background-color: rgb(179, 177, 177);
+  border: 3px solid rgb(252, 248, 196);
+  border-radius: 1rem;
   padding-inline-start: 10px;
   color: rgb(0, 0, 0);
   list-style: none;
@@ -192,6 +194,9 @@ ul {
   font-weight: 800;
 }
 
+.btn-div{
+  margin-block: 7px;
+}
 .btn-div .btns {
   padding: 1rem;
   border-radius: 0.5rem;
